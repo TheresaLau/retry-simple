@@ -1,0 +1,38 @@
+{
+  "name": "retry-simple",
+  "version": "0.0.2",
+  "description": "Simplify async retries in JavaScript and TypeScript — supports exponential backoff, jitter, timeouts, and custom retry conditions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "MORE_EXAMPLES.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheresaLau/retry-simple.git"
+  },
+  "homepage": "https://github.com/TheresaLau/retry-simple#readme",
+  "bugs": {
+    "url": "https://github.com/TheresaLau/retry-simple/issues"
+  },
+  "keywords": [
+    "retry",
+    "async",
+    "utility",
+    "typescript",
+    "javascript",
+    "promise",
+    "backoff",
+    "timeout",
+    "jitter"
+  ],
+  "author": "Theresa Lau",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

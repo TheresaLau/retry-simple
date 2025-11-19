@@ -103,7 +103,7 @@ Runs an asynchronous function with automatic retry logic.
 | Parameter | Type | Required | Description |
 |------------|------|-----------|-------------|
 | `fn` | `() => Promise<T>` | ✅ | The async function to execute. |
-| `options` | [`RetryOptions`](#retry-options) | ❌ | Optional configuration (see below). |
+| `options` | [`RetryOptions`](#%EF%B8%8F-retry-options) | ❌ | Optional configuration (see below). |
 
 ### ⚙️ Retry Options
 
